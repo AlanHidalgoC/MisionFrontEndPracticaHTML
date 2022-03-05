@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+
+  .logo{
+
+    width: 400px;
+    justify-content: center; 
+    text-align: center;
+    margin: auto;
+    display: flex;
+
+  }
+  .titulo{
+    font-family: Lucida Bright, Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke: 1px gray;
+    justify-content: center; 
+    text-align: center;
+    margin: auto;
+    display: flex;}
+  
+  body {
+    
+
+   background-image: url("img/fondo.jpg");
+    background-size: 100%;
+  }
+  
+  
+  .main {
+    text-align: center;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+ .pasteles{
+
+    text-align: center;
+    
+    justify-content: left;
+
+ }
+  
+  
+  
+  .box {
+    color: white;
+  background-image: url("img/menu.png");
+  background-size: contain;
+  font-weight: 800;
+  -webkit-text-stroke: 0.5px gray;
+    width: 450px;
+    height: 550px;
+    padding: 50px;
+    margin: 0 10px 0 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    border-radius: 0.5em;
+   
+  }
+  
+  .boton {
+    border: 0;
+    color: white;
+    font-weight: bold;
+    background-color: Black;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 0.2em;
+  }
+  
+  
+  
+  
+  footer {
+  
+  
+    -webkit-text-stroke: 0.5px gray;
+    color: black;
+   font-size: 20px;
+   
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    
+  }
+  
+ 
